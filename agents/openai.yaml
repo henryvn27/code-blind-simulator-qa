@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code-Blind Simulator QA"
+  short_description: "Run independent source-blind iOS Simulator QA"
+  default_prompt: "Use $code-blind-simulator-qa to run fresh-context black-box QA agents against the staged iOS app and turn reproducible findings into verified fixes."

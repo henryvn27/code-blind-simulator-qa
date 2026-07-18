@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Code-Blind Simulator QA</title>
+  <desc id="desc">The orchestrator knows the code; the tester does not.</desc>
+  <rect width="1280" height="640" fill="#151512"/>
+  <rect x="640" width="640" height="640" fill="#F4F1E8"/>
+  <rect x="632" width="16" height="640" fill="#C7FF45"/>
+
+  <g font-family="'SF Mono','IBM Plex Mono','Roboto Mono',monospace">
+    <text x="72" y="82" fill="#C7FF45" font-size="22" font-weight="700" letter-spacing="2">ORCHESTRATOR / SOURCE + BUILD</text>
+    <text x="712" y="82" fill="#615F57" font-size="22" font-weight="700" letter-spacing="2">TESTER / SIMULATOR ONLY</text>
+
+    <g transform="translate(72 150)" fill="none" stroke="#F4F1E8" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M58 0 0 82l58 82"/>
+      <path d="m122 0 58 82-58 82"/>
+      <path d="m105-4-42 172" stroke="#C7FF45"/>
+    </g>
+
+    <g transform="translate(712 138)">
+      <rect x="0" y="0" width="116" height="202" rx="24" fill="none" stroke="#151512" stroke-width="12"/>
+      <circle cx="58" cy="174" r="6" fill="#151512"/>
+      <path d="M156 100h132" stroke="#151512" stroke-width="12" stroke-linecap="round"/>
+      <path d="m260 68 34 32-34 32" fill="none" stroke="#151512" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <text x="72" y="422" fill="#F4F1E8" font-size="58" font-weight="800">The orchestrator</text>
+    <text x="72" y="494" fill="#F4F1E8" font-size="58" font-weight="800">knows the code;</text>
+    <text x="712" y="422" fill="#151512" font-size="58" font-weight="800">the tester</text>
+    <text x="712" y="494" fill="#151512" font-size="58" font-weight="800">does not.</text>
+
+    <text x="72" y="576" fill="#A8A69E" font-size="25" font-weight="600">CODE-BLIND SIMULATOR QA</text>
+    <text x="712" y="576" fill="#615F57" font-size="22" font-weight="600">RUNTIME EVIDENCE / NO SOURCE CONTEXT</text>
+  </g>
+</svg>
