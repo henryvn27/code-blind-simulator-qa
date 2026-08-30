@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/social-preview.svg" alt="Code-Blind Simulator QA: the orchestrator knows the code; the tester does not." width="100%">
+  <img src="assets/social-preview.svg" alt="Code-blind simulator QA: testing without source context" width="100%">
 </p>
 
 <h1 align="center">Code-Blind Simulator QA</h1>
 
-<p align="center"><strong>The orchestrator knows the code; the tester does not.</strong></p>
+<p align="center"><strong>Testing without source context.</strong></p>
 
 <p align="center">
   An Agent Skill for independent, runtime-only iOS Simulator testing.<br>
